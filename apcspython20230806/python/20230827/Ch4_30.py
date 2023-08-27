@@ -1,0 +1,7 @@
+v = input("請輸入數字用空白隔開")
+vList = v.split(" ")
+print(vList)
+print(type(vList[0]))
+vList = list(map(int,vList))
+print(type(vList[0]))
+print(vList)
